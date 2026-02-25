@@ -1,0 +1,5 @@
+alert icmp any any -> $HOME_NET any (msg:"ICMP Flood Detected"; detection_filter:track by_src, count 10, seconds 2; sid:1000001; rev:1;)
+
+alert tcp any any -> $HOME_NET 80 (flags:S; msg:"Possible hping3 Attack: TCP SYN Flood Detected"; detection_filter:track by_src, count 40, seconds 1; sid:1000003; rev:3;)
+
+alert tcp any any -> $HOME_NET any (flags:S; msg:"Port Scan Detected"; detection_filter:track by_src, count 15, seconds 5; sid:1000004; rev:1;)
