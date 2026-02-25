@@ -56,13 +56,15 @@ Mobile Notification
 
 ## 📂 Repository Structure
 
-snort-ids-alerting/
-│
-├── local.rules        # Custom Snort detection rules
-├── snort_ntfy.py      # Python log monitoring & ntfy alert script
-├── README.md          # Project overview and documentation
-└── SETUP.md           # Installation and configuration guide
+## 📂 Repository Structure
 
+```text
+snort-ids-alerting/
+├── local.rules
+├── snort_ntfy.py
+├── README.md
+└── SETUP.md
+```
 ---
 
 ## 🚀 Quick Start
