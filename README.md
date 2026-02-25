@@ -58,10 +58,10 @@ Mobile Notification
 
 snort-ids-alerting/
 │
-├── local.rules
-├── snort_ntfy.py
-├── README.md
-└── SETUP.md
+├── local.rules        # Custom Snort detection rules
+├── snort_ntfy.py      # Python log monitoring & ntfy alert script
+├── README.md          # Project overview and documentation
+└── SETUP.md           # Installation and configuration guide
 
 ---
 
