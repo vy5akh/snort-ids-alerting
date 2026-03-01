@@ -26,6 +26,7 @@ When an attack is detected:
 
 ## 🏗️ Architecture
 
+```text
 Kali Linux (Attacker)
         ↓
 Ubuntu 20.04 (Snort IDS)
@@ -39,7 +40,7 @@ ntfy Server
 ZeroTier Private Network
         ↓
 Mobile Notification
-
+```
 ---
 
 ## 🛡️ Features
